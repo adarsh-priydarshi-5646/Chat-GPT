@@ -4,7 +4,7 @@ let chatContainer = document.querySelector(".chat-container");
 let btn = document.querySelector(".btn");
 let userMessage = null;
 
-const Api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBnqK4huJaSWTxP88Cra0CjoibYNPm_VTo";
+const Api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=your_api_key";
 
 function createChatBox(html, className) {
   const div = document.createElement("div");
